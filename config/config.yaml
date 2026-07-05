@@ -1,0 +1,27 @@
+# Project Configuration
+
+# Data paths
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  external_path: "data/external/"
+
+# Model parameters
+model:
+  type: "random_forest"
+  random_state: 42
+  n_estimators: 100
+  test_size: 0.2
+  
+# Training parameters
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  
+# Output paths
+output:
+  models_path: "models/"
+  results_path: "results/"
+  figures_path: "results/figures/"
+  reports_path: "results/reports/"
